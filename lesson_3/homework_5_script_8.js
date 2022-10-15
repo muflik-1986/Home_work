@@ -1,4 +1,4 @@
-// Вариант 1. Через тернарный оператор
+// Вариант 1. Через тернарный оператор "?"
 let numberGeneral = +prompt('Введите шестизначное число');
 let number6 = numberGeneral % 10;
 let number5 = (numberGeneral % 100 - number6) / 10;
@@ -8,7 +8,6 @@ let number2 = ((((numberGeneral % 100000 - number6) / 10 - number5) / 10 - numbe
 let number1 = (((((numberGeneral - number6) / 10 - number5) / 10 - number4) / 10 - number3) / 10 - number2) / 10;
 
 number6 === number1 && number5 === number2 && number4 === number3 ? alert (`Введенное число (${numberGeneral})зеркальное!`) : alert (`Введенное число (${numberGeneral}) НЕ зеркальное`);
-
 
 // Вариант 2. Через "if, else"
 let numberGeneralFromUser = +prompt('Введите шестизначное число');
