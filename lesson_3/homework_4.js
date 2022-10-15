@@ -5,7 +5,7 @@ let userSport = prompt('Какой Ваш любимый вид спорта?');
 let result = '';
 
 if (userDateOfBirth) {
-result+= `Ваш год рождения: ${userDateOfBirth}. \n`;
+result+= `Ваш возраст: ${2022 - userDateOfBirth} год. \n`;
 } else {
     result+= `К сожалению, Вы не ввели год своего рождения! \n`;
 }
@@ -20,7 +20,7 @@ switch (userCity) {
         break;
     case 'Киев':
         result+= `Ты живешь в столице Украины! \n`;
-        break;    
+        break;
     default:
         result+= `Ты живешь в городе ${userCity}. \n`;
         break;
