@@ -9,14 +9,6 @@ let number1 = (((((numberGeneral - number6) / 10 - number5) / 10 - number4) / 10
 
 number6 === number1 && number5 === number2 && number4 === number3 ? alert (`Введенное число (${numberGeneral})зеркальное!`) : alert (`Введенное число (${numberGeneral}) НЕ зеркальное`);
 
-// Вариант 1
-// let numberGeneral = +prompt('Введите шестизначное число');
-// let number6 = numberGeneral % 10;
-// let number5 = (numberGeneral % 100 - number6) / 10;
-// let number4 = ((numberGeneral % 1000) - +(String(number5) + String(number6))) / 100;
-// let number3 = ((numberGeneral % 10000) - +(String(number4) + String(number5) + String(number6))) / 1000;
-// let number2 = ((numberGeneral % 100000) - +(String(number3) + String(number4) + String(number5) + String(number6))) / 10000;
-// let number1 = ((numberGeneral % 1000000) - +(String(number2) + String(number3) + String(number4) + String(number5) + String(number6))) / 100000;
 
 // Вариант 2. Через "if, else"
 let numberGeneralFromUser = +prompt('Введите шестизначное число');
