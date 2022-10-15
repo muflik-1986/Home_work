@@ -7,7 +7,7 @@ let number3 = (((numberGeneral % 10000 - number6) / 10 - number5) / 10 - number4
 let number2 = ((((numberGeneral % 100000 - number6) / 10 - number5) / 10 - number4) / 10 - number3) / 10;
 let number1 = (((((numberGeneral - number6) / 10 - number5) / 10 - number4) / 10 - number3) / 10 - number2) / 10;
 
-number6 === number1 && number5 === number2 && number4 === number3 ? alert (`Введенное число (${numberGeneral})зеркальное!`) : alert (`Введенное число (${numberGeneral}) НЕ зеркальное`);
+number6 === number1 && number5 === number2 && number4 === number3 ? alert (`Введенное число (${numberGeneral}) зеркальное!`) : alert (`Введенное число (${numberGeneral}) НЕ зеркальное`);
 
 
 

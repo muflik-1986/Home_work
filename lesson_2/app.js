@@ -29,17 +29,8 @@ alert(`Результат умножения: ${+numberFromUser1 * +numberFromUs
 alert(`Результат деления: ${+numberFromUser1 / +numberFromUser2}`);
 
 
-
 // Задание 3
 let numberOne = +prompt('Введите первое число');
 let numberTwo = +prompt('Введите второе число');
 let numberThree = +prompt('Введите третье число');
 alert(`Среднее арифметическое: ${(numberOne+numberTwo+numberThree)/3}`);
-
-// let numberGeneral = +prompt('Введите шестизначное число');
-// let number6 = numberGeneral % 10;
-// let number5 = (numberGeneral % 100 - number6) / 10;
-// let number4 = ((numberGeneral % 1000) - +(String(number5) + String(number6))) / 100;
-// let number3 = ((numberGeneral % 10000) - +(String(number4) + String(number5) + String(number6))) / 1000;
-// let number2 = ((numberGeneral % 100000) - +(String(number3) + String(number4) + String(number5) + String(number6))) / 10000;
-// let number1 = ((numberGeneral % 1000000) - +(String(number2) + String(number3) + String(number4) + String(number5) + String(number6))) / 100000;

@@ -5,7 +5,7 @@ let userSport = prompt('Какой Ваш любимый вид спорта?');
 let result = '';
 
 if (userDateOfBirth) {
-result+= `Ваш возраст: ${2022 - userDateOfBirth} год. \n`;
+result+= `Ваш возраст: ${2022 - userDateOfBirth}. \n`;
 } else {
     result+= `К сожалению, Вы не ввели год своего рождения! \n`;
 }
