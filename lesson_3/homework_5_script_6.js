@@ -4,10 +4,6 @@ let number3 = numberGeneral % 10;
 let number2 = (numberGeneral - number3) / 10 % 10;
 let number1 = ((numberGeneral - number3) / 10 - number2) / 10;
 
-// Еще варианты определения number1 
-// let number1 = Math.trunc((numberGeneral - number3) / 100);
-// let number1 = (numberGeneral - +(String(number2) + String(number3))) / 100;
-
 let numberSum = number1 + number2 + number3;
 if (numberSum % 2 === 0) {
     alert (`Сумма цифр (${numberSum}) является четной`);
