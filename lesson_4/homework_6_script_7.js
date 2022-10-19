@@ -1,5 +1,5 @@
 let sum = 0;
-for (num = 30; num <= 80; num++) {
+for (let num = 30; num <= 80; num++) {
     if(num % 2 === 0) {
       sum += num;   
     }
