@@ -1,9 +1,7 @@
-let number = 10;
-do {
-    if (number === 20) {
-        document.write(number);
+for (num = 10; num<= 20; num++) {
+    if (!(num === 20)) {
+        document.write(num + ', ');
     } else {
-        document.write(number + ',');
+        document.write(num);
     } 
-    number++;
-} while (number <= 20);
+}
