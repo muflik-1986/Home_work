@@ -54,5 +54,3 @@ function doMath(x, znak, y) {
 
 let result = doMath(numX, sign, numY);
 console.log(result);
-
-

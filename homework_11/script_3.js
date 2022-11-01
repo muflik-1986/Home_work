@@ -16,5 +16,3 @@ function twoDimensArr(lengthMain, lengthChild) {
 
 result = twoDimensArr(lenghtOFMainArr, lengthOfChildArr);
 console.log(result);
-
-
