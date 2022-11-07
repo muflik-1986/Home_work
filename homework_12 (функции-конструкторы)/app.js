@@ -30,7 +30,7 @@ function getCarYear() {
     let year;
     do {
         year = +prompt('Введите год производства автомобиля: с 1990 по 2022');
-    } while (year === '' || year <= 1990 || year > 2022 || !isNumeric(year));
+    } while (year === '' || year < 1990 || year > 2022 || !isNumeric(year));
     return year;
 }
 
