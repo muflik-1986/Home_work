@@ -1,8 +1,7 @@
-function Car(brand, year, color, owner) {
+function Car(brand, year, color) {
     this.brand = brand;
     this.year = year;
     this.color = color;
-    this.owner = owner;
     this.showInfo = function () {
         let info = `Автомобиль: \n Марка - ${this.brand}; \n Год производства - ${this.year}; \n Цвет - ${this.color}.`;
         if (this.owner) {
