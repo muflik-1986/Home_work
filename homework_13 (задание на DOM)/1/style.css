@@ -1,0 +1,9 @@
+.myDiv {
+  background-color: gainsboro;
+  border: 1px solid black;
+  margin-left: 20px;
+}
+
+.mainStyles {
+  display: flex;
+}
