@@ -1,0 +1,23 @@
+.picture {
+  width: 550px;
+  height: 300px;
+  border: 2px solid gray;
+  margin-top: 30px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box button {
+  cursor: pointer;
+  border: 2px solid gray;
+  border-radius: 15px;
+  background-color: goldenrod;
+  margin: 20px 0 0 20px;
+  width: 250px;
+  height: 90px;
+  font-size: 20px;
+}
