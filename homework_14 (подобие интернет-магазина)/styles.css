@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+}
+
+.container > div {
+  width: 33%;
+  border: 1px solid black;
+  min-height: 20px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.btn {
+  cursor: pointer;
+  border: 2px solid gray;
+  border-radius: 15px;
+  background-color: goldenrod;
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  align-self: center;
+  margin: 15px 0 15px 0;
+}
+
+.message {
+  font-size: 23px;
+  font-weight: bold;
+  color: blueviolet;
+  text-align: center;
+  margin-top: 15px;
+}
