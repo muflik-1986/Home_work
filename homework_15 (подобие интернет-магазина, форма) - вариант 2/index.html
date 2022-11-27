@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="categories"></div>
+        <div class="products"></div>
+        <div class="details"></div>
+    </div>
+    <form class="clientForm" name="mainForm">
+        <p class="formTitle">Fill out the form below!</p>
+        <div class="js-clientName">
+            <label>Full name: </label>
+            <input type="text" name="clientName" placeholder="Your full name">
+        </div>
+        <div class="js-clientCity">
+            <label>City to send: </label>
+            <select name="clientCity">
+                <option value="not selected">-- select city --</option>
+                <option value="Kharkiv">Kharkiv</option>
+                <option value="Kyiv">Kyiv</option>
+                <option value="Odessa">Odessa</option>
+            </select>
+        </div>
+        <div class="js-clientPost">
+            <label>Number of Post Departure: </label>
+            <input type="number" name="clientPostNumber" placeholder="Number of Post Departure">
+        </div>
+        <div class="js-formOfPay">
+            <label>Way to pay the good: </label>
+            <p class="par">Cash on delivery:<input type="radio" name="payment" value="C.O.D"></p>
+            <p class="par">By banking card:<input type="radio" name="payment" value="card"></p>
+        </div>
+        <div class="js-amount">
+            <label>Amount of product: </label>
+            <input type="number" name="amountOfProduct" placeholder="Amount of products">
+        </div>
+        <div class="js-comment">
+            <label>Comments: </label>
+            <textarea name="description" placeholder="Your comment"></textarea>
+        </div>
+        <input type="button" value="Press me" class="btn">
+        <div class="js-message message"></div>
+    </form>
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

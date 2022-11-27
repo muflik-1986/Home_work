@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+}
+
+.container > div {
+  width: 33%;
+  border: 1px solid black;
+  min-height: 20px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.btn {
+  cursor: pointer;
+  border: 2px solid gray;
+  border-radius: 15px;
+  background-color: goldenrod;
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  align-self: center;
+  margin: 5px 0 5px 0;
+}
+
+.formTitle {
+  font-size: 23px;
+  font-weight: bold;
+  color: blueviolet;
+  margin-top: 15px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.clientForm > div {
+  margin-bottom: 20px;
+}
+
+.par {
+  display: inline-flex;
+  margin: 0 20px 0 20px;
+}
+
+.message {
+  color: red;
+  font-size: 20px;
+  padding-left: 20px;
+}
